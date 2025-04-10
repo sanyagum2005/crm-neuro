@@ -18,7 +18,6 @@ function createWindow() {
 
   Menu.setApplicationMenu(null);
   mainWindow.loadURL('http://localhost:3000');
-  mainWindow.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
